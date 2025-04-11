@@ -1,0 +1,84 @@
+/* Reset and fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color:#e6f2ff; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .hero img{
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    display: block;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    color: #222;
+    border-radius: 8px;
+    display: inline-block;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Features */
+  .feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .feature {
+    background-color: #a5b2b8;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Testimonials */
+  .testimonial {
+    background-color: #88b7bf;
+    padding: 15px;
+    margin: 10px auto;
+    width: fit-content;
+    border-left: 5px solid #ff9800;
+    font-style: italic;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px;
+  }
